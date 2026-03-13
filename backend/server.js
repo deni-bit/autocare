@@ -84,6 +84,7 @@ app.use('/api/reviews',                    require('./routes/reviews'));
 app.use('/api/payments',                   require('./routes/payments'));
 app.use('/api/notifications',              require('./routes/notifications'));
 app.use('/api/admin',                      require('./routes/admin'));
+app.use('/api/upload', require('./routes/upload'));
 app.use('/api/ai',           aiLimiter,    require('./routes/ai'));
 
 // ── HEALTH CHECK ───────────────────────────────────────────────────────────
