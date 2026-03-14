@@ -38,6 +38,7 @@ app.use(generalLimiter);
 const allowedOrigins = [
   process.env.CLIENT_URL,
   process.env.ADMIN_URL,
+  process.env.MOBILE_URL,
   'http://localhost:5173',
   'http://localhost:5174',
   'http://localhost:3000',
