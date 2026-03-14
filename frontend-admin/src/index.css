@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --navy:       #0A2647;
+  --navy-light: #144272;
+  --navy-dark:  #061a32;
+  --white:      #FFFFFF;
+  --gray-light: #F5F5F5;
+  --gray:       #E8E8E8;
+  --gold:       #F59E0B;
+  --gold-dark:  #D97706;
+  --teal:       #0D9488;
+  --teal-light: #14B8A6;
+  --green:      #10B981;
+  --blue:       #3B82F6;
+  --red:        #EF4444;
+  --purple:     #8B5CF6;
+  --orange:     #F97316;
+
+  --bg:       var(--navy-dark);
+  --surface:  var(--navy);
+  --surface2: var(--navy-light);
+  --surface3: #1a3a5c;
+  --text:     var(--white);
+  --muted:    #94A3B8;
+  --border:   rgba(255,255,255,0.1);
+  --accent:   var(--gold);
+  --accent2:  var(--teal);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; min-height: 100vh; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.leaflet-container { border-radius: 12px; }
